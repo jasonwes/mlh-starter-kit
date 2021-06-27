@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <head>
     <!-- this is your page's title. It is shown on Google and in the tab on your browser. -->
-    <title>[Put your website's name here]</title>
+    <title>👹 Website title placeholder 👹</title>
     <!--- utilize Bootstrap's CSS styling -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="/assets/css/styles.css" /> <!-- you can edit this file and include your CSS styles -->
+    <link href="/assets/css/styles.css"  /> <!-- you can edit this file and include your CSS styles -->
     <!-- this is some metadata! It allows us to specifcy useful things, such as keywords and website description. -->
     <meta charset="UTF-8">
     <meta name="keywords" content="MLH, INIT, Jason Wessel">
@@ -15,13 +15,11 @@
 
 <!-- anything placed in the body is visible on your website -->
 <body>
-    <!-- this is Bootstrap's JS. Including it is what makes our website's interactive stuff work. -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <!-- this is your navbar via Bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">YOUR WEBSITE'S NAME</a>
+        <a class="navbar-brand" href="/">👹 Your website's name 👹</a>
+
+        <!-- this is some Bootstrap magic -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,14 +30,76 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+              <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">First link</a>
+            </li> 
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link active" href="https://mlh.io/">Second link</a>
             </li>
           </ul>
         </div>
       </nav>
+      <br />
+      <!-- this is a container. It automatically pushes your content in from the sides -->
+      <div class="container">
+        <h1> This is my example website </h1>
 
-    <h1> This is my example website </h1>
+        <!-- this is an example column layout! It's responsive too, and has some placeholder paragraphs. -->
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <!-- example carousel -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/images/monkey-1.jpg" class="d-block w-100" alt="Smiling monkey">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/images/monkey-2.jpg" class="d-block w-100" alt="Stoic monkey">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets//images/shark-1.jpg" class="d-block w-100" alt="Swimming shark">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                <!-- example paragraphs -->
+                <p>
+                    Bacon ipsum dolor amet flank strip steak pig jerky ground round bresaola pork picanha. Bresaola chislic jerky, swine tri-tip pig bacon ribeye meatloaf andouille kielbasa burgdoggen brisket pork cow. Chuck swine jowl flank brisket pancetta. Capicola beef ribs ribeye, leberkas ground round bresaola tenderloin pork chop shoulder filet mignon chislic. Filet mignon corned beef chuck picanha.
+                </p>
+                <p>
+                    Jowl pork loin shoulder, chicken kielbasa fatback cupim turducken pastrami. Picanha shankle brisket, venison jerky bresaola swine kielbasa ball tip pork meatloaf beef beef ribs. Turducken capicola buffalo spare ribs hamburger, cow short ribs strip steak turkey chicken beef ribs. Beef ribs chuck frankfurter sirloin tenderloin. Venison hamburger salami, kielbasa pork sausage picanha. Fatback filet mignon beef ribs pig.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <!-- this is an example card. You can include one for you and your teammates. -->
+                <div class="card">
+                    <img src="./assets/images/monkey-3.jpg" class="card-img-top" alt="Hanging monkey">
+                    <div class="card-body">
+                      <p class="card-text">Sidebar text, perhaps explaining who you are and your background</p>
+                    </div>
+                  </div>
+
+                  <!-- you may want to include some links in your sidebard too! -->
+                  <div class="list-group">
+                    <a href="https://www.linkedin.com/in/jason-wessel-275703137/" class="list-group-item list-group-item-action">
+                      Jason Wessel
+                    </a>
+                    <a href="https://github.com/jasonwes/mlh-starter-kit" class="list-group-item list-group-item-action">
+                        Visit GitHub repo
+                    </a>
+                  </div>
+            </div>
+        </div>
+      </div>
+      <!-- script file -->
+      <script src="scripts.js"></script>
+      <!-- Bootstrap script file, to enable all Bootstrap functionality -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
