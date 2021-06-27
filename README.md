@@ -7,7 +7,7 @@ You should clone this repo (or download it as a .zip file) to your computer. If 
 There are lots of example files in the repo. Feel free to change or remove them!
 
 ## Useful linkts to get started!
-👀 See a preview of the website [insert github preview page here]
+👀 See a preview of the website https://jasonwes.github.io/mlh-starter-kit/
 
 💻 Check out Bootstrap's documentation: https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
